@@ -10,8 +10,8 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIAQ6FDGR5YY3TVUYLW" 
-  secret_key = "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"
+  # access_key = "ACCESS_KEY"
+  # secret_key = "SECRET_KEY"
 }
 
 resource "aws_instance" "app_server" {
